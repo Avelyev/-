@@ -11,7 +11,6 @@
 *****************************************************************************/
 
 #include <iostream>
-#include <stdarg.h>
 
 using namespace std;
 
