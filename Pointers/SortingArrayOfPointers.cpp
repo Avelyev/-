@@ -43,22 +43,22 @@ public:
 
 inline void sortPointer (Person *p1, Person *p2)
 {
+	//0.72
 	Person *temp = p1;
-	//Элемент массива под индексом p1 теперь хранит другой адрес, из p2
-	*p1 = *p2;
-	*p2 = *temp;
+	p1 = p2;
+	p2 = temp;
 }
 
 inline void sortObject (Person *p1, Person *p2)
 {
-	//Извлекаем (разыменовываем) объект Person
-	Person temp = *p1;
-
-	//ИСПРАВИТЬ
-	p1->data = p2->data;
-	p1->data2 = p2->data2;
-	p2->data = temp->data;
-	p2->data2 = temp->data2;
+	//1.32
+	Person *temp = *p1;
+	*p1 = *p2;
+	*p2 = temp;
+	//0.36
+	Person *temp = p1;
+	*p1 = *p2;
+	*p2 = *temp;
 }
 
 void sort(Person **person, int n, void (*f)(Person*, Person*))
