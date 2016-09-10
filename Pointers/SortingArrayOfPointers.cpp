@@ -55,7 +55,7 @@ inline void sortObject (Person *p1, Person *p2)
 	Person *temp = *p1;
 	*p1 = *p2;
 	*p2 = temp;
-	//0.36
+	//0.36 
 	Person *temp = p1;
 	*p1 = *p2;
 	*p2 = *temp;
