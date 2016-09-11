@@ -25,82 +25,89 @@ using namespace std;
 
 class Person {
 public:
-    int data;
-    int data2;
-    int data3;
-    int data4;
+	int data;
+	int data2;
+	int data3;
+	int data4;
 
-    Person ()
-    {}
+	Person ()
+	{}
 
-    Person(int data, int data2, int data3, int data4) : data(data), data2(data2), data3(data3), data4(data4)
-    {}
+	Person(int data, int data2, int data3, int data4) : data(data), data2(data2), data3(data3), data4(data4)
+	{}
 };
 
 inline void sortPointer (Person*& p1, Person*& p2)
 {
-    //Fast
-    Person *temp = p1;
-    p1 = p2;
-    p2 = temp;
+	/* Fast
+	 * Быстро */
+	Person *temp = p1;
+	p1 = p2;
+	p2 = temp;
 }
 
 inline void sortObject (Person*& p1, Person*& p2)
 {
-    //Slowly
-    Person temp = *p1;
-    *p1 = *p2;
-    *p2 = temp;
+	/* Slowly
+	 * Медленно */
+	Person temp = *p1;
+	*p1 = *p2;
+	*p2 = temp;
 }
 
 void sort(Person **person, int n, void (*f)(Person*&, Person*&))
 {
-    for (int i = 0; i < n; i++)
-    {
-        bool swapped = false;
-        for (int j = 0; j < n-i; j++)
-        {
-            if (person[i]->data > person[j]->data)
-            {
-                swapped = true;
-                //Sorting through a given function
-                f(person[i], person[j]);
-            }
-        }
-    }
+	for (int i = 0; i < n-1; i++)
+	{
+		bool swapped = false;
+		for (int j = 0; j < n-i-1; j++)
+		{
+			if (person[j]->data < person[j+1]->data)
+			{
+				swapped = true;
+				/* Sorting through a given function
+				 * Сортировка через переданную функцию */
+				f(person[j], person[j+1]);
+			}
+			if (!swapped)
+				break;
+		}
+	}
 }
 
 int main()
 {
-    void (*sortPointerPtr) (Person*&, Person*&) = &sortPointer;
-    void (*sortObjectPtr) (Person*&, Person*&) = &sortObject;
+	void (*sortPointerPtr) (Person*&, Person*&) = &sortPointer;
+	void (*sortObjectPtr) (Person*&, Person*&) = &sortObject;
 
-    const int n = 20000;
+	const int n = 20000;
 
-    //Array pointers of objects
-    Person* person[n];
+	//Array pointers of objects
+	Person* person[n];
 
-    //Creating objects and add pointers in array
-    for (int i = 0; i < n; i++)
-    {
-        person[i] = new Person(i, i, i, i);
-    }
+	/* Creating objects and add pointers in array
+	 * Создание объектнов и добавление указателей на них в массив */
+	for (int i = 0; i < n; i++)
+	{
+		person[i] = new Person(i, i, i, i);
+	}
 
-    cout << "Run sort. Last element: " << person[n - 1]->data << " | " << person[n - 1]->data2 << endl;
+	cout << "Run sort. Last element: " << person[n - 1]->data << " | " << person[n - 1]->data2 << endl;
 
-    sort(person, n, sortPointerPtr);
-    //sort(person, n, sortObjectPtr);
+	sort(person, n, sortPointerPtr);
+	//sort(person, n, sortObjectPtr);
 
-        cout << "End sort. Last element: " << endl;
+		cout << "End sort. Last element: " << endl;
 
-        //Printing last 50 element
-        for (int i = n - 50; i < n; i++)
-        {
-            cout << person[i]->data << " | " << person[i]->data2 << endl;
-        }
+		/* Printing last 50 element
+		 * Вывести последние 50 элементов */
+		for (int i = n - 50; i < n; i++)
+		{
+			cout << person[i]->data << " | " << person[i]->data2 << endl;
+		}
 
-    cout << clock() << endl;
+	cout << clock() << endl;
 
-    system("pause");
-    return 0;
+	system("pause");
+	return 0;
 }
