@@ -1,5 +1,4 @@
 /*****************************************************************************
- *
  * This example shows how to independently create a simple smart pointer
  *
  * Code&Robots site:       http://codrob.ru/
@@ -54,7 +53,9 @@ int main()
 		SmartPointer<AnyClass> sp(new AnyClass());
 		sp->init();
 
-		//There will be a memory leak
+		/* There will be a memory leak
+		 * Код ниже приведет к утечкам памяти */
+		
 		/*AnyClass *ac = new AnyClass;
 		ac->init();*/
 	}
