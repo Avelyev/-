@@ -1,5 +1,4 @@
 /*****************************************************************************
- *
  * This example demonstrates how to transfer the function to the function
  *
  * Code&Robots site:       http://codrob.ru/
@@ -14,23 +13,26 @@
 
 using namespace std;
 
-//Sorting Functions
-void lessMySort (int &x, int &y)
+/* Sorting Functions
+ * Сортировка от меньшего */
+void lessMySort (int &x, int &y, bool &swapped)
 {
-	int temp = 0;
 	if (x > y)
 	{
+		swapped = true;
+		int temp = 0;
 		temp = x;
 		x = y;
 		y = temp;
 	}
 }
 
-void greaterMySort (int &x, int &y)
+void greaterMySort (int &x, int &y, bool &swapped)
 {
-	int temp = 0;
 	if (x < y)
 	{
+		swapped = true;
+		int temp = 0;
 		temp = x;
 		x = y;
 		y = temp;
@@ -38,22 +40,27 @@ void greaterMySort (int &x, int &y)
 }
 
 //Run sorting
-void sort (int *arr, int n, void (*f)(int&, int&))
+void sort (int *arr, int n, void (*f)(int&, int&, bool&))
 {
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < n-1; i++)
 	{
-		for (int j = 0; j < n; j++)
+		bool swapped = false;
+		for (int j = 0; j < n-i-1; j++)
 		{
-			f(arr[i], arr[j]);
+			f(arr[j], arr[j+1], swapped);
 		}
+		if (!swapped)
+			break;
 	}
+
 }
 
 int main()
 {
-	//Declare and initialize references to functions
-	void (*lessPtr) (int&, int&) = &lessMySort;
-	void (*greaterPtr) (int&, int&) = &greaterMySort;
+	/* Declare and initialize references to functions
+	 * Объявление и инициализация ссылок на функции */
+	void (*lessPtr) (int&, int&, bool&) = &lessMySort;
+	void (*greaterPtr) (int&, int&, bool&) = &greaterMySort;
 
 	int arr[5] = {10, 32, 15, 93, 42};
 
