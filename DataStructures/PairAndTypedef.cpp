@@ -59,14 +59,14 @@ int main()
 	 * Для одиночных переменных */
 	int x1, x2, y1, y2;
 
-	if(x1 == x2 && y1 == y2){} //Bad
+        if(x1 == x2 && y1 == y2) {} //Bad
 
 	//For Pair
 	typedef std::pair<int , int> cell;
 	cell cell_1;
 	cell cell_2;
 
-	if(cell_1 == cell_2){} //Good
+        if(cell_1 == cell_2) {} //Good
 
 /* Density
  * Компактность */
@@ -84,7 +84,7 @@ int main()
 
 	/* Easier
 	 * Проще */
-	pair<int , char*> product;
+        pair<int, char*> product;
 
 /* You can use the pair when it is not expected to add to the 3rd variable (two-dimensional vector, name / surname, height / weight)
  Otherwise, if you need to add a third variable would have to spend a large refactoring code and create a structure
