@@ -42,8 +42,8 @@ int main()
 
 	/* It is impossible to carry out the conversion down the hierarchy of classes if the base class does not contain a virtual
 	 * Нельзя проводить преобразование вниз по иерархии классов если базовый класс не содержит virtual */
-	C* pbd = dynamic_cast<C*>(pb);			//Type: C
-	cout << typeid(pbd).name() << endl;
+	C* pbd = dynamic_cast<C*>(pb);			
+	cout << typeid(pbd).name() << endl;		//Type: C
 
 	/* Checking class at runtime
 	 * Проверка класса во время выполнения программы */
