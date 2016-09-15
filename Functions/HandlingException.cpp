@@ -1,7 +1,7 @@
-/*****************************************************************************
+п»ї/*****************************************************************************
  * This example demonstrates how the error handling via try designs, catch, throw
  *
- * Этот пример демонстрирует способы обработки ошибок с помощью конструкций try, catch, throw
+ * Р­С‚РѕС‚ РїСЂРёРјРµСЂ РґРµРјРѕРЅСЃС‚СЂРёСЂСѓРµС‚ СЃРїРѕСЃРѕР±С‹ РѕР±СЂР°Р±РѕС‚РєРё РѕС€РёР±РѕРє СЃ РїРѕРјРѕС‰СЊСЋ РєРѕРЅСЃС‚СЂСѓРєС†РёР№ try, catch, throw
  *
  * Code&Robots site:       http://codrob.ru/
  * YouTube Channel:        https://www.youtube.com/channel/UCTGS5FRyz564wwiyNs8J54A
@@ -16,7 +16,7 @@
 using namespace std;
 
 /* Create an abstract error handling class, just as an example
- * Создадим абстрактный класс обработки ошибок, просто для примера */
+ * РЎРѕР·РґР°РґРёРј Р°Р±СЃС‚СЂР°РєС‚РЅС‹Р№ РєР»Р°СЃСЃ РѕР±СЂР°Р±РѕС‚РєРё РѕС€РёР±РѕРє, РїСЂРѕСЃС‚Рѕ РґР»СЏ РїСЂРёРјРµСЂР° */
 class Exception
 {
 protected:
@@ -27,7 +27,7 @@ public:
 };
 
 /* A global class to handle errors
- * Некий глобальный класс для обработки ошибок */
+ * РќРµРєРёР№ РіР»РѕР±Р°Р»СЊРЅС‹Р№ РєР»Р°СЃСЃ РґР»СЏ РѕР±СЂР°Р±РѕС‚РєРё РѕС€РёР±РѕРє */
 class OtherException : public Exception
 {
 public:
@@ -46,7 +46,7 @@ public:
 class Math
 {
 	/* Error handling class only in the class Math
-	 * Класс обработки ошибок только в классе Math*/
+	 * РљР»Р°СЃСЃ РѕР±СЂР°Р±РѕС‚РєРё РѕС€РёР±РѕРє С‚РѕР»СЊРєРѕ РІ РєР»Р°СЃСЃРµ Math*/
 	class ExceptionMath : public Exception
 	{
 	public:
@@ -71,25 +71,25 @@ float Math::Division(float v1, float v2)
 	try
 	{
 		/* It creates an object of class ExceptionMath, which is transferred to the catch block
-		 * Создается объект класса ExceptionMath, который передается в блок catch */
+		 * РЎРѕР·РґР°РµС‚СЃСЏ РѕР±СЉРµРєС‚ РєР»Р°СЃСЃР° ExceptionMath, РєРѕС‚РѕСЂС‹Р№ РїРµСЂРµРґР°РµС‚СЃСЏ РІ Р±Р»РѕРє catch */
 		if (v2 == 0)
 			throw ExceptionMath(0, (char*)"Division by zero");
 
 		/* It creates an object of class OtherException, which is transferred to the catch block
-		 * Создается объект класса OtherException, который передается в блок catch */
+		 * РЎРѕР·РґР°РµС‚СЃСЏ РѕР±СЉРµРєС‚ РєР»Р°СЃСЃР° OtherException, РєРѕС‚РѕСЂС‹Р№ РїРµСЂРµРґР°РµС‚СЃСЏ РІ Р±Р»РѕРє catch */
 		if (v2 == 666 || v1 == 666)
 			throw OtherException(333, (char*)"Are you sure you want to division the number of the devil?");
 		return v1 / v2;
 	}
 	/* The unit below takes only exception type ExceptionMath
-	 * Блок ниже принимает исключения только типа ExceptionMath */
+	 * Р‘Р»РѕРє РЅРёР¶Рµ РїСЂРёРЅРёРјР°РµС‚ РёСЃРєР»СЋС‡РµРЅРёСЏ С‚РѕР»СЊРєРѕ С‚РёРїР° ExceptionMath */
 	catch (ExceptionMath exp)
 	{
 		exp.display();
 		return (float)NULL;
 	}
 	/* The unit below takes only exception type OtherException
-	 * Блок ниже принимает исключения только типа OtherException */
+	 * Р‘Р»РѕРє РЅРёР¶Рµ РїСЂРёРЅРёРјР°РµС‚ РёСЃРєР»СЋС‡РµРЅРёСЏ С‚РѕР»СЊРєРѕ С‚РёРїР° OtherException */
 	catch (OtherException exp)
 	{
 		exp.display();

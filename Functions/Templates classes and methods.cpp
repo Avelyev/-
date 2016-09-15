@@ -1,7 +1,7 @@
-/*****************************************************************************
+п»ї/*****************************************************************************
  * This example demonstrates the implementation and application of the template functions and classes
  *
- * Этот пример демонстрирует реализацию и применение шаблонных функций и классов
+ * Р­С‚РѕС‚ РїСЂРёРјРµСЂ РґРµРјРѕРЅСЃС‚СЂРёСЂСѓРµС‚ СЂРµР°Р»РёР·Р°С†РёСЋ Рё РїСЂРёРјРµРЅРµРЅРёРµ С€Р°Р±Р»РѕРЅРЅС‹С… С„СѓРЅРєС†РёР№ Рё РєР»Р°СЃСЃРѕРІ
  *
  * Code&Robots site:       http://codrob.ru/
  * YouTube Channel:        https://www.youtube.com/channel/UCTGS5FRyz564wwiyNs8J54A
@@ -16,15 +16,15 @@
 using namespace std;
 
 /* Simple template function swaps the values of 2 variables of any type for which conversion is possible
- * Простейшая шаблонная функция, меняет местами значения 2-х переменных любых типов, для которых возможно преобразование */
+ * РџСЂРѕСЃС‚РµР№С€Р°СЏ С€Р°Р±Р»РѕРЅРЅР°СЏ С„СѓРЅРєС†РёСЏ, РјРµРЅСЏРµС‚ РјРµСЃС‚Р°РјРё Р·РЅР°С‡РµРЅРёСЏ 2-С… РїРµСЂРµРјРµРЅРЅС‹С… Р»СЋР±С‹С… С‚РёРїРѕРІ, РґР»СЏ РєРѕС‚РѕСЂС‹С… РІРѕР·РјРѕР¶РЅРѕ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ */
 
 /* Announcement function prototype
- * Объявление прототипа функции */
+ * РћР±СЉСЏРІР»РµРЅРёРµ РїСЂРѕС‚РѕС‚РёРїР° С„СѓРЅРєС†РёРё */
 template <typename Tfunc1, typename Tfunc2>
 void swap (Tfunc1& first, Tfunc2& second);
 
 /* Implementation of template function
- * Реализация шаблонной функции */
+ * Р РµР°Р»РёР·Р°С†РёСЏ С€Р°Р±Р»РѕРЅРЅРѕР№ С„СѓРЅРєС†РёРё */
 template <typename Tfunc1, typename Tfunc2>
 void swap (Tfunc1& first, Tfunc2& second)
 {
@@ -34,7 +34,7 @@ void swap (Tfunc1& first, Tfunc2& second)
 }
 
 /* The simplest example of a template class
- * Простейший пример шаблонного класса */
+ * РџСЂРѕСЃС‚РµР№С€РёР№ РїСЂРёРјРµСЂ С€Р°Р±Р»РѕРЅРЅРѕРіРѕ РєР»Р°СЃСЃР° */
 template <typename Type1, typename Type2>
 class ExamplePair
 {
@@ -47,18 +47,18 @@ public:
 	{}
 
 	/* Gaining access to the link variables
-	 * Получение доступа к переменным по ссылке */
+	 * РџРѕР»СѓС‡РµРЅРёРµ РґРѕСЃС‚СѓРїР° Рє РїРµСЂРµРјРµРЅРЅС‹Рј РїРѕ СЃСЃС‹Р»РєРµ */
 	Type1& First();
 	Type2& Second();
 
 	/* Setting values
-	 * Установка значений */
+	 * РЈСЃС‚Р°РЅРѕРІРєР° Р·РЅР°С‡РµРЅРёР№ */
 	Type1 First(Type1 setFirst);
 	Type2 Second(Type2 setSecond);
 };
 
 /* Declaring class methods beyond
- * Объявление методов класса за его пределами */
+ * РћР±СЉСЏРІР»РµРЅРёРµ РјРµС‚РѕРґРѕРІ РєР»Р°СЃСЃР° Р·Р° РµРіРѕ РїСЂРµРґРµР»Р°РјРё */
 template <typename Type1, typename Type2>
 Type1& ExamplePair<Type1, Type2>::First()
 {
@@ -91,7 +91,7 @@ int main()
 	float a2 = 3.1415;
 
 	/* Recommended post:
-	 * Рекомендуемая запись:
+	 * Р РµРєРѕРјРµРЅРґСѓРµРјР°СЏ Р·Р°РїРёСЃСЊ:
 	swap<int, char> (a1, a2); */
 	swap (a1, a2);
 
@@ -112,8 +112,8 @@ int main()
 
 	/* Integer 90 matches the character Z
 	 A character in the corresponding integer 100
-	 * Целое число 90 соответствует символу Z
-	 А Символ d соответствует  целому числу 100 */
+	 * Р¦РµР»РѕРµ С‡РёСЃР»Рѕ 90 СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ СЃРёРјРІРѕР»Сѓ Z
+	 Рђ РЎРёРјРІРѕР» d СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚  С†РµР»РѕРјСѓ С‡РёСЃР»Сѓ 100 */
 	swap<int, char> (Exp.First(), Exp.Second());
 
 	cout << Exp.First() << endl;			//100
