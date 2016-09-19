@@ -1,7 +1,7 @@
-/*****************************************************************************
+п»ї/*****************************************************************************
  * This example demonstrates the use of the Array container STL
  *
- * Этот пример демонстрирует применение контейнера Array из STL
+ * Р­С‚РѕС‚ РїСЂРёРјРµСЂ РґРµРјРѕРЅСЃС‚СЂРёСЂСѓРµС‚ РїСЂРёРјРµРЅРµРЅРёРµ РєРѕРЅС‚РµР№РЅРµСЂР° Array РёР· STL
  *
  * Code&Robots site:       http://codrob.ru/
  * YouTube Channel:        https://www.youtube.com/channel/UCTGS5FRyz564wwiyNs8J54A
@@ -31,7 +31,7 @@ int main()
 	array<char*, 3> arr;
 
 	/* Ambiguity in Empty
-	 * Неоднозначность в Empty */
+	 * РќРµРѕРґРЅРѕР·РЅР°С‡РЅРѕСЃС‚СЊ РІ Empty */
 	if (!arr.empty())
 	{
 		arr[0] = (char*)"String 1";
@@ -46,12 +46,12 @@ int main()
 	cout << get<1>(arr) << endl;
 
 	/* Create iterators
-	 * Создание итераторов */
+	 * РЎРѕР·РґР°РЅРёРµ РёС‚РµСЂР°С‚РѕСЂРѕРІ */
 	auto iterStart = arr.begin();
 	auto iterEnd = arr.end();
 
 	/* Create reverse iterators
-	 * Создание обратных итераторов */
+	 * РЎРѕР·РґР°РЅРёРµ РѕР±СЂР°С‚РЅС‹С… РёС‚РµСЂР°С‚РѕСЂРѕРІ */
 	auto RiterStart = arr.rbegin();
 	auto RiterEnd = arr.rend();
 
