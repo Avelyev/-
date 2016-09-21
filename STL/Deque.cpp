@@ -1,7 +1,7 @@
 ﻿/*****************************************************************************
- * This example demonstrates the use of the Queue and Priority_queue containers STL
+ * This example demonstrates the use of the Deque container STL
  *
- * Этот пример демонстрирует применение контейнеров Queue и Priority_queue из STL
+ * Этот пример демонстрирует применение контейнера Deque из STL
  *
  * Code&Robots site:       http://codrob.ru/
  * YouTube Channel:        https://www.youtube.com/channel/UCTGS5FRyz564wwiyNs8J54A
