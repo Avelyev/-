@@ -8,11 +8,16 @@ You can visit the channel on YouTube, on it you will find a detailed explanation
 <br>
 Вы можете посетить канал на YouTube, на нем Вы найдете подробные объяснения: http://i2m.su/iWuthf
 </p>
+<h1>Literature and links for beginners</h1>
+[1] Лафоре. Объектно-ориентированное программирование в C++ <br>
+[2] Страуструп Б. Язык программирования C++<br>
+[3] <a href="http://www.cplusplus.com" target="_blank">Справочник по STL на английском</a><br>
+[4] <a href="http://ru.cppreference.com/w/" target="_blank">Не полный справочник по STL на русском</a><br>
 <h1>Literature</h1>
-[1] <a href="http://www.ozon.ru/context/detail/id/33852757/" target="_blank">Бьерн Страуструп. Programming: Principles and Practice Using C++</a><br>
+[1] <a href="http://www.ozon.ru/context/detail/id/33852757/" target="_blank">Bjarne Stroustrup. Programming: Principles and Practice Using C++</a><br>
 [2] <a href="https://habrahabr.ru/post/248137/" target="_blank">Scott Meyers. Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14</a><br>
-[3] <a href="http://www.ozon.ru/context/detail/id/17636939/" target="_blank">Энтони Уильямс. C++ Concurrency in Action: Practical Multithreading</a><br>
-[4] <a href="http://www.ozon.ru/context/detail/id/5508646/" target="_blank">Стив Макконнелл. Code Complete</a><br>
+[3] <a href="http://www.ozon.ru/context/detail/id/17636939/" target="_blank">Anthony Williams. C++ Concurrency in Action: Practical Multithreading</a><br>
+[4] <a href="http://www.ozon.ru/context/detail/id/5508646/" target="_blank">Steve McConnell. Code Complete</a><br>
 <h1>External links</h1>
 [1] <a href="http://kvodo.ru/category/algorithms" target="_blank">Algorithms</a><br>
 [2] <a href="https://ru.wikipedia.org/wiki/Design_Patterns" target="_blank">Design Patterns 1</a><br>
