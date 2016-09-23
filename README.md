@@ -1,28 +1,31 @@
-<h1>ForStudents</h1>
-<p>In this gather repository of code examples and programs that explain various aspects of programming in C++. You are free to download these files, as well as offer their implementations.
-<br>
-You can visit the channel on YouTube, on it you will find a detailed explanation: http://i2m.su/iWuthf
-</p>
+﻿<h1>Для изучающих C++</h1>
 <p>
 В этом репозитории собираются примеры кода и программ, объясняющие различные аспекты программирования на С++. Вы можете свободно скачивать эти файлы, а также предлагать свои варианты реализации.
 <br>
 Вы можете посетить канал на YouTube, на нем Вы найдете подробные объяснения: http://i2m.su/iWuthf
 </p>
-<h1>Literature and links for beginners</h1>
+<h1>Литература и ссылки для начинающих</h1>
 [1] Лафоре. Объектно-ориентированное программирование в C++ <br>
-[2] Страуструп Б. Язык программирования C++<br>
-[3] <a href="http://www.cplusplus.com" target="_blank">Справочник по STL на английском</a><br>
-[4] <a href="http://ru.cppreference.com/w/" target="_blank">Не полный справочник по STL на русском</a><br>
-<h1>Literature</h1>
-[1] <a href="http://www.ozon.ru/context/detail/id/33852757/" target="_blank">Bjarne Stroustrup. Programming: Principles and Practice Using C++</a><br>
-[2] <a href="https://habrahabr.ru/post/248137/" target="_blank">Scott Meyers. Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14</a><br>
-[3] <a href="http://www.ozon.ru/context/detail/id/17636939/" target="_blank">Anthony Williams. C++ Concurrency in Action: Practical Multithreading</a><br>
-[4] <a href="http://www.ozon.ru/context/detail/id/5508646/" target="_blank">Steve McConnell. Code Complete</a><br>
-<h1>External links</h1>
-[1] <a href="http://kvodo.ru/category/algorithms" target="_blank">Algorithms</a><br>
-[2] <a href="https://ru.wikipedia.org/wiki/Design_Patterns" target="_blank">Design Patterns 1</a><br>
-[3] <a href="https://sourcemaking.com/design_patterns" target="_blank">Design Patterns 2</a><br>
-[4] <a href="https://habrahabr.ru/company/mailru/blog/265103/" target="_blank">List of books</a><br>
+[2] <a href="http://www.cplusplus.com" target="_blank">Справочник по STL на английском</a><br>
+[3] <a href="http://ru.cppreference.com/w/" target="_blank">Не полный справочник по STL на русском</a><br>
+[4] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/DataStructures/Books" target="_blank">Алгоритмы и Cтруктуры Данных - Третьяков А. С.</a><br>
+<h1>Литература для профессиональных программистов</h1>
+[1] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/DataStructures/Books" target="_blank">C++ Библиотека программиста - Джефф Элджер</a><br>
+[2] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/DataStructures/Books" target="_blank">C++ Принципы и практика - Страуструп 2015</a><br>
+[3] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/DataStructures/Books" target="_blank">C++ Эффективный и современный - Майерс 2015</a><br>
+[4] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/DataStructures/Books" target="_blank">C++ Параллельное программирование - Энтони Уильямс 2012</a><br>
+[5] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/DataStructures/Books" target="_blank">Паттерны проектирования</a><br>
+[6] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/DataStructures/Books" target="_blank">Совершенный код - Стив Макконнелл 2010</a><br>
+<h1>Библиотеки</h1>
+[1] Boost<br>
+[2] Qt<br>
+[3] OpenGL<br>
+[4] OpenCV<br>
+<h1>Ссылки</h1>
+[1] <a href="http://kvodo.ru/category/algorithms" target="_blank">Алгоритмы</a><br>
+[2] <a href="https://ru.wikipedia.org/wiki/Design_Patterns" target="_blank">Design Patterns Wiki</a><br>
+[3] <a href="https://sourcemaking.com/design_patterns" target="_blank">Design Patterns</a><br>
+[4] <a href="https://habrahabr.ru/company/mailru/blog/265103/" target="_blank">Список книг с хабра</a><br>
 <h1>Темы</h1>
 [1] Базы данных и C++<br>
 <br>

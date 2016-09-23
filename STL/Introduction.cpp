@@ -1,7 +1,7 @@
-/*****************************************************************************
+п»ї/*****************************************************************************
  * This example illustrates a basic STL
  *
- * Этот пример демонстрирует основы STL
+ * Р­С‚РѕС‚ РїСЂРёРјРµСЂ РґРµРјРѕРЅСЃС‚СЂРёСЂСѓРµС‚ РѕСЃРЅРѕРІС‹ STL
  *
  * Code&Robots site:       http://codrob.ru/
  * YouTube Channel:        https://www.youtube.com/channel/UCTGS5FRyz564wwiyNs8J54A
@@ -28,7 +28,7 @@ void display(char* str)
 int main()
 {
 	/* Initialization STL container vector values
-	 * Инициализация значениями контейнера STL: vector */
+	 * РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р·РЅР°С‡РµРЅРёСЏРјРё РєРѕРЅС‚РµР№РЅРµСЂР° STL: vector */
 	vector<char*> arrString;
 
 	arrString.push_back((char*)"String 1");
@@ -38,11 +38,11 @@ int main()
 	arrString.push_back((char*)"String 5");
 
 	/* Create iterators
-	 * Создание итераторов */
+	 * РЎРѕР·РґР°РЅРёРµ РёС‚РµСЂР°С‚РѕСЂРѕРІ */
 	vector<char*>::iterator iterStart = arrString.begin();
 	vector<char*>::iterator iterEnd = arrString.end();
 
 	/* The use of an algorithm
-	 * Применение алгоритма */
+	 * РџСЂРёРјРµРЅРµРЅРёРµ Р°Р»РіРѕСЂРёС‚РјР° */
 	for_each(iterStart, iterEnd, display);
 }
