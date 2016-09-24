@@ -2,20 +2,20 @@
 <p>
 В этом репозитории собираются примеры кода и программ, объясняющие различные аспекты программирования на С++. Вы можете свободно скачивать эти файлы, а также предлагать свои варианты реализации.
 <br>
-Вы можете посетить канал на YouTube, на нем Вы найдете подробные объяснения: http://i2m.su/iWuthf
+Вы можете посетить канал на YouTube, на нем Вы найдете подробные объяснения: https://www.youtube.com/c/code_robots
 </p>
 <h1>Литература и ссылки для начинающих</h1>
 [1] Лафоре. Объектно-ориентированное программирование в C++ <br>
 [2] <a href="http://www.cplusplus.com" target="_blank">Справочник по STL на английском</a><br>
 [3] <a href="http://ru.cppreference.com/w/" target="_blank">Не полный справочник по STL на русском</a><br>
-[4] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/DataStructures/Books" target="_blank">Алгоритмы и Cтруктуры Данных - Третьяков А. С.</a><br>
+[4] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/Books" target="_blank">Алгоритмы и Cтруктуры Данных - Третьяков А. С.</a><br>
 <h1>Литература для профессиональных программистов</h1>
-[1] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/DataStructures/Books" target="_blank">C++ Библиотека программиста - Джефф Элджер</a><br>
-[2] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/DataStructures/Books" target="_blank">C++ Принципы и практика - Страуструп 2015</a><br>
-[3] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/DataStructures/Books" target="_blank">C++ Эффективный и современный - Майерс 2015</a><br>
-[4] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/DataStructures/Books" target="_blank">C++ Параллельное программирование - Энтони Уильямс 2012</a><br>
-[5] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/DataStructures/Books" target="_blank">Паттерны проектирования</a><br>
-[6] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/DataStructures/Books" target="_blank">Совершенный код - Стив Макконнелл 2010</a><br>
+[1] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/Books" target="_blank">C++ Библиотека программиста - Джефф Элджер</a><br>
+[2] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/Books" target="_blank">C++ Принципы и практика - Страуструп 2015</a><br>
+[3] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/Books" target="_blank">C++ Эффективный и современный - Майерс 2015</a><br>
+[4] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/Books" target="_blank">C++ Параллельное программирование - Энтони Уильямс 2012</a><br>
+[5] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/Books" target="_blank">Паттерны проектирования</a><br>
+[6] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/Books" target="_blank">Совершенный код - Стив Макконнелл 2010</a><br>
 <h1>Библиотеки</h1>
 [1] Boost<br>
 [2] Qt<br>
