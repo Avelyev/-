@@ -19,8 +19,9 @@
 <h1>Библиотеки</h1>
 [1] Boost<br>
 [2] Qt<br>
-[3] OpenGL<br>
-[4] OpenCV<br>
+[3] WinAPI<br>
+[4] OpenGL<br>
+[5] OpenCV<br>
 <h1>Ссылки</h1>
 [1] <a href="http://kvodo.ru/category/algorithms" target="_blank">Алгоритмы</a><br>
 [2] <a href="https://ru.wikipedia.org/wiki/Design_Patterns" target="_blank">Design Patterns Wiki</a><br>
