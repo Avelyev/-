@@ -1,0 +1,295 @@
+[33mcommit 017d76ecdcde1dcf88c613ed2817489bba08440a[m
+Author: Evgeny-Bukovski <eugene@codrob.ru>
+Date:   Sun Oct 2 09:33:04 2016 +0300
+
+    Revert "Revert "What???""
+    
+    This reverts commit afb9236d4777da018a4f7482263a35867a9dfff6.
+
+[33mcommit afb9236d4777da018a4f7482263a35867a9dfff6[m
+Author: Evgeny-Bukovski <eugene@codrob.ru>
+Date:   Sun Oct 2 09:32:20 2016 +0300
+
+    Revert "What???"
+    
+    This reverts commit 592d22c04b3f9da53a8747cab252e528f3acfb9d.
+
+[33mcommit 592d22c04b3f9da53a8747cab252e528f3acfb9d[m
+Author: Evgeny-Bukovski <eugene@codrob.ru>
+Date:   Sun Oct 2 09:28:17 2016 +0300
+
+    What???
+
+[33mcommit cbcf681858c527d3dc3a2fb3777d87e75172990f[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Thu Sep 29 06:14:55 2016 +0300
+
+    Add Non-ModifyingAlgorithms
+
+[33mcommit df9b23241b018478d386f62fa810479768463905[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Wed Sep 28 03:16:10 2016 +0300
+
+    Functors, Predicate and Lambda expressions
+
+[33mcommit 0b03554e40f58a912c3237dbc25f15a5099dc197[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Tue Sep 27 08:09:17 2016 +0300
+
+    Added Functors and Predicates
+
+[33mcommit 33bbfefbb475121e51492e03ec989f4fcf4a4a4b[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Sun Sep 25 06:09:59 2016 +0300
+
+    Added Iterators in STL
+
+[33mcommit 2784cfd551dd4fb9bfa997685a3910c48261aa25[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Sat Sep 24 20:57:14 2016 +0300
+
+    Change links in README.md
+
+[33mcommit 2e1f6257a5e3c06ba5a60a2fae193e9ec46f3db7[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Sat Sep 24 20:56:35 2016 +0300
+
+    Change links in README.md
+
+[33mcommit 34c4b7d028b0342bdc33213e2f08f78d59e597d1[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Fri Sep 23 23:40:03 2016 +0300
+
+    Added books
+
+[33mcommit 8ac4c4bc5b77085c0e8a39c3bb22a2034ef1ef96[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Fri Sep 23 23:35:36 2016 +0300
+
+    Added books
+
+[33mcommit 5e57314f2f1395c2818dc5cd40ccb7c0e1ab3f3a[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Fri Sep 23 23:33:23 2016 +0300
+
+    Added books
+
+[33mcommit 846a637b4f468085211e5e16f03be80e1f8f9cbd[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Fri Sep 23 23:32:06 2016 +0300
+
+    Added books
+
+[33mcommit 6f83f5487ef399a6649e9679596660863f119ecd[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Fri Sep 23 23:30:55 2016 +0300
+
+    Added books
+
+[33mcommit 673e84f5240b54f81275ff5256055e9fb2e53603[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Fri Sep 23 23:30:12 2016 +0300
+
+    Added books
+
+[33mcommit 7c2107cbc0916ce93f55f8187e6af4d4a8e90118[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Fri Sep 23 23:29:20 2016 +0300
+
+    Added books
+
+[33mcommit d546bc632f3483f8cb349ff11c869e962c0b411b[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Fri Sep 23 23:11:19 2016 +0300
+
+    Added book
+
+[33mcommit 4f7eb0d518d9ebfedbea2fdca9f411ee2c7eda7d[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Fri Sep 23 23:07:29 2016 +0300
+
+    Change README
+
+[33mcommit f3b161f4bdd805054f43b5f001f7284fd13ad99b[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Thu Sep 22 23:11:05 2016 +0300
+
+    Books
+
+[33mcommit 251c09610ba89cdc0e4c2cf86486de2b2de34c69[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Thu Sep 22 23:00:23 2016 +0300
+
+    Books
+
+[33mcommit d0522862aded18a237f8621ba517ceb0cb9f4214[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Thu Sep 22 15:24:06 2016 +0300
+
+    Added STL
+
+[33mcommit 29648990c491ab89bcb4f9b3a2f09a5023f0a597[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Thu Sep 22 00:33:31 2016 +0300
+
+    STL: Map
+
+[33mcommit 898df693fbf2d20b8c8dc1f84e551a80ad12f11c[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Wed Sep 21 19:16:00 2016 +0300
+
+    MemoContainers
+
+[33mcommit 0302031e99e6c582e1f04726f73004bed40ec784[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Wed Sep 21 18:52:02 2016 +0300
+
+    STL: List and Set
+
+[33mcommit 1ea6606a12b05dcf29df2c928582e03ea58fb56f[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Tue Sep 20 13:36:38 2016 +0300
+
+    Added in STL
+
+[33mcommit 4bcf1df16d35917f01018984008233a1a0a9941f[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Mon Sep 19 03:45:41 2016 +0300
+
+    Added Vector in STL
+
+[33mcommit 3c18bbc3444d824a99f154429c109da3dbf42580[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Sun Sep 18 20:47:46 2016 +0300
+
+    Change Folder
+
+[33mcommit 0718a44fd343d2f50d72473959de7d81b8e3eb8e[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Sun Sep 18 20:39:47 2016 +0300
+
+    STL Array
+
+[33mcommit 54a2712c27429fb2f8e1ebb26936839f308dbaec[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Sat Sep 17 19:45:22 2016 +0300
+
+    Delete folder MultifileProgram
+
+[33mcommit df4ef4e1a989ef86d6eb6474197dacc20ef3da3c[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Sat Sep 17 19:29:41 2016 +0300
+
+    Added STL and Multi file Program
+
+[33mcommit 43d07c54ba766726db61bb4404bc919863463a1e[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Fri Sep 16 22:20:16 2016 +0300
+
+    Added Memory and Multifile Programm
+
+[33mcommit 534dbe21684b6fff7eb65ad239037983fe15e0bd[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Thu Sep 15 22:00:35 2016 +0300
+
+    Fixed charset
+
+[33mcommit 5affb9968faf052b5ba2de9b859b7af401403f22[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Thu Sep 15 21:36:47 2016 +0300
+
+    Functional writing in cpp
+
+[33mcommit 191aebc45428dc8bb1a8cec1feed96454e0dec09[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Wed Sep 14 23:08:57 2016 +0300
+
+    converting
+
+[33mcommit 0ec83d0f6e2b5930b0db072be0f5251a1150d4ba[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Tue Sep 13 23:37:43 2016 +0300
+
+    Added Pair and typedef
+
+[33mcommit 8e150a2e9ea55a026fa2eea1385cb80c7599f403[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Tue Sep 13 19:51:11 2016 +0300
+
+    Add handling exception cpp file
+
+[33mcommit 213dc26ec48256aede225c48d9853fc8c2078781[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Tue Sep 13 18:40:08 2016 +0300
+
+    Template
+
+[33mcommit 1882a752ef68e0fe852366253e182e57d4d29b6a[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Sun Sep 11 20:07:31 2016 +0300
+
+    Translate Smart pointer (simplest).cpp
+
+[33mcommit ca0841cf57aea1621ee769e79f940caa038effda[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Sun Sep 11 20:04:14 2016 +0300
+
+    Translate SortingArrayOfPointers.cpp
+
+[33mcommit 05c18d00cbf10ca1592ff6d4ad3cb57bf97858b5[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Sun Sep 11 19:51:47 2016 +0300
+
+    Translate References to functions.cpp
+
+[33mcommit 25baa3f6266b260755433f6e74822ba77346b6d1[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Sun Sep 11 19:33:28 2016 +0300
+
+    Translate VirtualFunctionsAndPure.cpp
+
+[33mcommit c6b162ee0db3c94520b3c0ad27b30d17869b432a[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Sun Sep 11 19:15:18 2016 +0300
+
+    Added VirtualFunctions.cpp
+
+[33mcommit 97d158011157b4136e892ef50d30bbd8cc4649de[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Sun Sep 11 18:07:29 2016 +0300
+
+    Release SortingArrayOfPointers.cpp
+
+[33mcommit 36c1ff02bbb7707055962363666a3d6df37a8cd4[m
+Author: Evgeny-Bukovski <eugene@codrob.ru>
+Date:   Sat Sep 10 10:21:24 2016 +0300
+
+    Change email
+
+[33mcommit 58864c143d176ff2670a1a4b99bbeab6ea5749f5[m
+Author: Evgeny-Bukovski <zhnek.swoboda@ya.ru>
+Date:   Sat Sep 10 10:15:26 2016 +0300
+
+    Change SortingArrayOfPointers.cpp
+
+[33mcommit f1f7674147f2a16f241e0f6c145143de8224ed6b[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Thu Sep 8 13:42:42 2016 +0300
+
+    Error in SortingArrayOfPointers.cpp
+
+[33mcommit 70a0219a427b3767ad3a9a07cd14133c4563058a[m
+Author: Evgeny-Bukovski <eugene@codrob.ru>
+Date:   Thu Sep 8 08:01:03 2016 +0300
+
+    Add SortingArrayOfPointers.cpp
+
+[33mcommit d900938c7663a1968cef0dfc631e66589698e745[m
+Author: Evgeny-Bukovski <eugene@codrob.ru>
+Date:   Wed Sep 7 13:52:02 2016 +0300
+
+    References to functions
+
+[33mcommit beda7c635488cb524dc0324f677334c86913f759[m
+Author: Eugene Bukowski <eugene@codrob.ru>
+Date:   Tue Sep 6 

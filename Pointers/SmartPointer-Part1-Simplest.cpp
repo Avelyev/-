@@ -1,4 +1,4 @@
-/*****************************************************************************
+﻿/*****************************************************************************
  * This example shows how to independently create a simple smart pointer
  *
  * Code&Robots site:       http://codrob.ru/
