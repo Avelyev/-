@@ -40,6 +40,7 @@ void foo (vector<Line>& db, mutex& mtx)
 {
 	while (1)
 	{
+		//lock_guard<mutex> lock (mtx);
 		//Transactions beginning
 		mtx.lock();
 
@@ -58,6 +59,7 @@ void bar (vector<Line>& db, mutex& mtx)
 {
 	while (1)
 	{
+		//lock_guard<mutex> lock (mtx);
 		//Transactions beginning
 		mtx.lock();
 
@@ -76,16 +78,10 @@ void viev (vector<Line>& db, mutex& mtx)
 {
 	while (1)
 	{
+		lock_guard<mutex> lock (mtx);
+
 		cout << "Viev: " << endl;
-
-		//Transactions beginning
-		mtx.lock();
-
 		for (auto row : db)	{ cout << row.year << ", ";	} cout << endl;
-
-		//The end of the transaction
-		mtx.unlock();
-
 		usleep(100000);
 	}
 }
@@ -105,8 +101,7 @@ int main ()
 	thread t2 (bar, ref(db), ref(mtx));
 	thread t3 (viev, ref(db), ref(mtx));
 
-	t1.join();
-	t2.join();
+	t1.detach();
+	t2.detach();
 	t3.join();
 }
-
