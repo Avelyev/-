@@ -8,7 +8,6 @@
 [1] Лафоре. Объектно-ориентированное программирование в C++ <br>
 [2] <a href="http://www.cplusplus.com" target="_blank">Справочник по STL на английском</a><br>
 [3] <a href="http://ru.cppreference.com/w/" target="_blank">Не полный справочник по STL на русском</a><br>
-[4] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/Books" target="_blank">Алгоритмы и Cтруктуры Данных - Третьяков А. С.</a><br>
 <h1>Литература для профессиональных программистов</h1>
 [1] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/Books" target="_blank">C++ Библиотека программиста - Джефф Элджер</a><br>
 [2] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/Books" target="_blank">C++ Принципы и практика - Страуструп 2015</a><br>
