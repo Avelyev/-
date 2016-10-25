@@ -37,7 +37,7 @@ public:
 
 	void add (T, Node*&);
 	void print (Node*&);
-	void crear(Node*&);
+	void clear(Node*&);
 	int size ();
 	bool empty ();
 };
@@ -83,13 +83,13 @@ void BinTree<T>::print (Node*& n)
 }
 
 template <typename T>
-void BinTree<T>::crear(Node*& n)
+void BinTree<T>::clear(Node*& n)
 {
 	if (n == NULL)
 		return;
 
-	crear(n->left);
-	crear(n->right);
+	clear(n->left);
+	clear(n->right);
 
 	delete n;
 	n = NULL;
@@ -128,7 +128,7 @@ int main()
 	tree.print(tree.root);
 
 	std::cout << std::endl << std::endl << "Size: " << tree.size() << std::endl;
-	tree.crear(tree.root);
+	tree.clear(tree.root);
 	std::cout << "Size: " << tree.size() << std::endl;
 
 	std::cout << std::endl << "Hard no balance tree" << std::endl << std::endl;
@@ -140,6 +140,6 @@ int main()
 	tree.print(tree.root);
 
 	std::cout << std::endl << std::endl << "Size: " << tree.size() << std::endl;
-	tree.crear(tree.root);
+	tree.clear(tree.root);
 	std::cout << "Size: " << tree.size() << std::endl << std::endl;
 }
