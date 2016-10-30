@@ -1,7 +1,7 @@
 /*****************************************************************************
- * This example demonstrates the development of algorithm bubble sorting
+ * This example demonstrates the development of algorithm select sorting
  *
- * Этот пример демонстрирует разработку алгоритма пузырьковой сортировки
+ * Этот пример демонстрирует разработку алгоритма сортировки выбором
  *
  * Code&Robots site:       http://codrob.ru/
  * YouTube Channel:        https://www.youtube.com/c/code_robots
@@ -17,39 +17,35 @@
 enum type {less, greater};
 
 template <typename T, type e>
-void bubbleSort(T arr[], int n)
+void selectSort(T arr[], int n)
 {
 	int passages = 0;
-	bool swapped = false;
 	std::function<bool(T,T)> predicate;
 
 	switch (e)
 	{
 		case greater:
-			predicate = [] (T x, T y) { return x>y?true:false; };
+			predicate = [] (T x, T y) { return x<y?true:false; };
 		break;
 		case less:
-			predicate = [] (T x, T y) { return x<y?true:false; };
+			predicate = [] (T x, T y) { return x>y?true:false; };
 		break;
 	}
 
 	//Algorithm
-	for (int i = 0; i < n-1; i++)
+	for (int i = 0; i < n - 1; i++)
 	{
-		swapped = false;
-		passages++;
-		for (int j = 0; j < n-i-1; j++)
+		int el = i;
+		for (int j = i + 1; j < n; j++)
 		{
-			if (predicate(arr[j],arr[j+1]))
-			{
-				T temp = arr[j+1];
-				arr[j+1] = arr[j];
-				arr[j] = temp;
-				swapped = true;
-				passages++;
-			}
+			if (predicate(arr[j], arr[el]))
+				el = j;
+			passages++;
 		}
-		if (!swapped) break;
+
+		if (el != i)
+			std::swap(arr[i], arr[el]);
+		passages++;
 	}
 
 	//Output
@@ -65,18 +61,18 @@ int main()
 {
 	{
 		int arr[] = {41, 58, 32, 64, 85, 73, 20};
-		bubbleSort<int, greater> (arr, 7);
+		selectSort<int, greater> (arr, 7);
 	}
 	{
 		int arr[] = {35, 58, 32, 45, 85, 73, 827};
-		bubbleSort<int, greater> (arr, 7);
+		selectSort<int, greater> (arr, 7);
 	}
 	{
 		int arr[] = {41, 58, 32, 64, 85, 73, 20};
-		bubbleSort<int, less> (arr, 7);
+		selectSort<int, less> (arr, 7);
 	}
 	{
 		int arr[] = {35, 58, 32, 45, 85, 73, 827};
-		bubbleSort<int, less> (arr, 7);
+		selectSort<int, less> (arr, 7);
 	}
 }
