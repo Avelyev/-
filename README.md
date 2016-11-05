@@ -36,22 +36,22 @@
 [2] <a href="https://ru.wikipedia.org/wiki/Design_Patterns" target="_blank">Design Patterns Wiki</a><br>
 [3] <a href="https://sourcemaking.com/design_patterns" target="_blank">Design Patterns</a><br>
 [4] <a href="https://habrahabr.ru/company/mailru/blog/265103/" target="_blank">Список книг с хабра</a><br>
-<h1>Темы</h1>
-[1] Базы данных и C++<br>
+<h1>Искусственный Интеллект</h1>
+<b>Книги:</b><br><br>
+[1] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/Books/AI" target="_blank">Об интеллекте (2007) - Хокинс</a><br>
+[2] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/Books/AI" target="_blank">Принципы нейродинамики (1962) - Розенблатт Ф.</a><br>
+[3] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/Books/AI" target="_blank">Персептроны (1971) - Минский</a><br>
+[4] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/Books/AI" target="_blank">Нейронные сети (1993) - Беркинблит</a><br>
+[5] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/Books/AI" target="_blank">Нейронные сети (2006) - Хайкин. Полный курс. 2 издание</a><br>
+[6] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/Books/AI" target="_blank">Проблема узнавания (1967) - Бонград</a><br>
+[7] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/Books/AI" target="_blank">Искусственный Интеллект. Современный подход (2006) - Рассел</a><br>
+[8] <a href="https://github.com/Evgeny-Bukovski/ForStudentsLearningCpp/tree/master/Books/AI" target="_blank">Искусственный Интеллект и Универсальное мышление (2012) - Потапов</a><br>
 <br>
-[2] Графы<br>
-  [2.1] Байесовская сеть<br>
-  <br>
-[3] Нейронные сети <br>
-<br>
-[4] Динамическое программирование <br>
-<br>
-[5] Логика <br>
-  [5.1] Нечеткая логика <br>
-  [5.2] Мат. логика <br>
-  <br>
-[6] Многокритериальный выбор <br>
-<br>
-[7] Метод оптимизаци<br>
-<br>
-[8] Комбинаторика
+<b>Статьи, Онлайн-книги, Курсы:</b><br><br>
+[1] Алан Тьюринг 1952 год «Химические основы морфогенеза»<br>
+[2] <a href="http://www.aiportal.ru/articles" target="_blank">Статьи об Искусственном Интеллекте и примеры программ</a><br>
+[3] <a href="http://filosof.historic.ru/books/item/f00/s00/z0000716/index.shtml" target="_blank">Книга онлайн: Искусственный интеллект (2001) - Люгер, Дж.Ф.</a><br>
+[4] <a href="http://statsoft.ru/home/textbook/modules/stneunet.html#preandpost" target="_blank">Книга онлайн: Нейронные сети</a><br>
+[5] <a href="http://matlab.exponenta.ru/neuralnetwork/book4/index.php" target="_blank">Книга онлайн (перевод): Применение нейронных сетей</a><br>
+[6] <a href="https://www.coursera.org/learn/machine-learning" target="_blank">Курс: Машинное обучение (Стэнфордский университет)</a><br>
+[7] <a href="https://ru.wikiversity.org/wiki/Факультет_искусственного_интеллекта" target="_blank">Викиверситет: Факультет Искусственного интеллекта</a><br>
